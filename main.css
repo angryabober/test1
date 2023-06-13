@@ -42,7 +42,13 @@
 }
 
 #vyd {
-    color: brown;
+    color: rgb(0, 0, 0);
+    background-color:brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#vyd2 {
+    color: rgba(223, 80, 80, 0.774);
     background-color: rgb(240, 240, 240);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
