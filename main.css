@@ -32,6 +32,14 @@
     user-select: none;
 }
 
+#oglav {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-align: center;
+    user-select: none;
+}
+
+
 .non:active {
     color: brown;
     display: none;
