@@ -20,3 +20,8 @@
     color: brown;
     user-select: none;
 }
+
+.non:active {
+    color: brown;
+    display: none;
+}
