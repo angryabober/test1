@@ -18,6 +18,17 @@
 
 #red {
     color: brown;
+    background-color: rgb(221, 221, 221);
+    font-size: xx-large;
+    text-align: center;
+    user-select: none;
+}
+
+#black {
+    color: rgb(0, 0, 0);
+    background-color: rgb(221, 221, 221);
+    font-size: xx-large;
+    text-align: center;
     user-select: none;
 }
 
