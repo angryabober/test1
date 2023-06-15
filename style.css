@@ -28,12 +28,12 @@ footer {
 }
 
 body,head {
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
     background-color: rgb(97, 97, 97);
-    padding-left: 20px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: auto;
+    padding-left: 0px;
 }
 
 *{
