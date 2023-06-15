@@ -8,6 +8,17 @@
     <title>sht</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
+    <style>
+        ul {
+            content: "START ";background-color: rgb(107, 107, 107);
+        }
+        p::before{
+            content: "start ";
+        }
+        p::after{
+            content: "END ";background-color: rgb(107, 107, 107);
+        }
+    </style>
 </head>
 
 <body>
@@ -15,16 +26,6 @@
 
     </header>
     <main>
-        <style>
-            body {
-                font-family:sans-serif;
-                width: 80%;
-                margin: auto;
-            }
-            ul {
-                list-style: upper-latin inside url();
-            }
-        </style>
         <div class="dot">
             <h1>
                 <li>bobr 1</li>
@@ -39,6 +40,11 @@
                 <li>bobr 4</li>
             </h1>
         </div>
+        <li>abobr A</li>
+        <ul>
+            <li>abobr B</li>
+        </ul>
+        <li>abobr c</li>
         <div class="table">
             <table>
                 <tr>
@@ -59,9 +65,10 @@
                 </tr>
             </table>
         </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, quia!</p>
     </main>
     <footer>
-        
+
     </footer>
 </body>
 
