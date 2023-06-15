@@ -14,7 +14,7 @@ table tr,th {
 }
 
 .numer, .dot {
-    width: 500px;
+    width: 250px;
     height: 150px;
     margin-left: auto;
     margin-right: auto;
@@ -25,6 +25,15 @@ table tr,th {
 footer {
     width: 100px;
     background-color: brown;
+}
+
+body,head {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background-color: rgb(97, 97, 97);
+    padding-left: 20px;
 }
 
 *{
