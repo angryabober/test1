@@ -22,6 +22,11 @@ table tr,th {
     padding-left: 20px;
 }
 
+footer {
+    width: 100px;
+    background-color: brown;
+}
+
 *{
     margin: 0;
     padding: 0;
