@@ -45,8 +45,12 @@ header button{
     background-image: url("bsht.png");
     margin: 140px auto 0 auto;
     text-align: center;
-    padding-top: 180px;
+    padding-top: 200px;
     background-repeat: no-repeat;
+}
+
+.heads_logo h3 {
+    font-size: 24px;
 }
 
 .heads_logo h1 {
