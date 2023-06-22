@@ -31,9 +31,9 @@ nav a{
 }
 
 header button{
-    justify-content: flex-start;
+    justify-content: flex-end;
     padding: 9px 15px 9px 15px;
     color: white;
-    background-color: rgb(0, 162, 255);
+    background-color: #018abe;
     border-radius: 10px;
 }
