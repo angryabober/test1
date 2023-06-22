@@ -10,6 +10,8 @@ body {
 }
 
 header{
+    width: 1298px;
+    height: 60px;
     display: flex;
-    margin: ;
+    margin: 30px auto 0 auto;
 }
