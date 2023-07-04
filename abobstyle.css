@@ -19,18 +19,19 @@
     bottom: 0;
     right: 0;
     margin: auto;
+    
 }
 
 #bcr:hover{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 9px;
-    padding-right: 9px;
     background-color: #1d948a;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
+    transition: background-color 0.5s ease-out,;
+    
+}
+
+#bcr:active{
+    background-color: #0b302d;
+    color: white;
+    transition: background-color 0.5s ease-out, width 1s ease-in-out;
+    width: 200px;
+    height: 200px;
 }
