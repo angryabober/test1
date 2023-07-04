@@ -34,5 +34,31 @@
 }
 
 #mcr{
-    
+    background-color: rgb(107, 4, 155);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transform: ;
+}
+
+#mcr:hover{
+    background-color: rgb(80, 0, 117);
+    color: rgb(155, 0, 226);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
 }
