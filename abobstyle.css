@@ -31,7 +31,7 @@
 #bcr:active{
     background-color: #0b302d;
     color: white;
-    transition: background-color 0.5s ease-out, color 0.5s, 1s ease-in-out;
     width: 200px;
+    transition: all 1s linear;
     height: 200px;
 }
