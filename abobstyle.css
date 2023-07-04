@@ -24,7 +24,7 @@
 
 #bcr:hover{
     background-color: #1d948a;
-    transition: background-color 0.5s ease-out,;
+    transition: background-color 1s ease-out,;
     
 }
 
@@ -32,6 +32,18 @@
     background-color: #0b302d;
     color: white;
     width: 200px;
-    transition: all 1s linear;
+    transition: background-color 1s ease-out, color 1s ease-in, width 1s ease-in-out;
     height: 200px;
+}
+
+.my_element {
+    background-color: azure;
+    width: 200px;
+    height: 100px;
+    transition: all 1s linear;
+}
+
+.my_element:hover {
+    background-color: brown;
+    width: 300px;
 }
