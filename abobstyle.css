@@ -30,3 +30,8 @@
     bottom: 0;
     margin: auto;
 }
+
+.bcc, .fcc:hover {
+    transition: 2s linear;
+    width: 300px;
+}
