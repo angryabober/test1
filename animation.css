@@ -5,7 +5,7 @@
     background-color: rgb(6, 14, 126);
     margin-left: -304px;
     margin-top: 10px;
-    transition: margin 1s, background-color 0.01s;
+    transition: margin 1s, background-color 0s;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -22,7 +22,7 @@
     background-color: brown;
     margin-left: -304px;
     margin-top: 350px;
-    transition: margin 1s, background-color 0.01s;
+    transition: margin 1s, background-color 0s;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 }
