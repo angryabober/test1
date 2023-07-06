@@ -1,0 +1,16 @@
+.bobr{
+    position: absolute;
+    height: 300px;
+    width: 5px;
+    background-color: rgb(6, 14, 126);
+    margin-left: -10px;
+    margin-top: 300px;
+    transition: width 1s, background-color 0.01s;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bobr:hover{
+    width: 300px;
+    background-color: brown;
+}
