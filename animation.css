@@ -77,7 +77,7 @@
 .abbrt{
     display: flex;
     position: relative;
-
+    
     perspective: 2000px;
 }
 
