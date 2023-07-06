@@ -57,4 +57,9 @@
     background-color: brown;
     margin-top: 600px;
     margin-left: 900px;
+    transition: all 1s;
+}
+
+.quad:hover{
+    transform: scale(2);
 }
