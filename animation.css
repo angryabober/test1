@@ -31,3 +31,21 @@
     background-color: rgb(6, 14, 126);
     margin-left: -10px;
 }
+
+.butt{
+    border-collapse: collapse;
+    background-color: brown;
+    transition: all 0.5s,color 0s;
+    border-radius: 5px;
+    scale: 150%;
+}
+
+.butt:hover{
+    background-color: rgb(6, 14, 126);
+    scale: 200%;
+}
+
+.butt:active{
+    color: brown;
+}
+
