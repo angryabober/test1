@@ -43,9 +43,10 @@
 .butt:hover{
     background-color: rgb(6, 14, 126);
     scale: 200%;
+    transform: skew(10deg,0);
 }
 
 .butt:active{
     color: brown;
+    transform: rotate(-90deg);
 }
-
