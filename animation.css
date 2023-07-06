@@ -25,6 +25,7 @@
     transition: width 1s, background-color 0.01s;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
+    
 }
 
 .bobr:hover{
