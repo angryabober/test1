@@ -3,7 +3,7 @@
     height: 300px;
     width: 300px;
     background-color: rgb(6, 14, 126);
-    margin-left: -304px;
+    margin-left: -270px;
     margin-top: 10px;
     transition: margin 1s, background-color 0s;
     border-bottom-right-radius: 15px;
@@ -48,4 +48,13 @@
 
 .butt:active{
     color: brown;
+}
+
+.quad{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    margin-top: 600px;
+    margin-left: 900px;
 }
