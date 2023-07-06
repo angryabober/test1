@@ -53,13 +53,15 @@
 .quad{
     position: absolute;
     height: 150px;
-    width: 150px;
+    width: 250px;
     background-color: brown;
     margin-top: 600px;
-    margin-left: 900px;
-    transition: all 1s;
+    margin-left: 600px;
+    transition: all 1s linear;
+    border: 5px solid rgb(112, 29, 29);
 }
 
 .quad:hover{
-    transform: scale(2);
+    transform-origin: left;
+    transform: perspective(1500px) rotateY(50deg);
 }
