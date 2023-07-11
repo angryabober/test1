@@ -18,10 +18,10 @@
 
 @keyframes cloud{
     from{
-        margin-left: 0px;
+        background-position-x: 0px;
     }
     to{
-        margin-left: 950px;
+        background-position-x: 500px;
     }
 }
 
