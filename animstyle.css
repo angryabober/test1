@@ -5,7 +5,7 @@
 }
 
 #fbi:hover{
-    animation: ebm 5s linear 1s alternate infinite;
+    animation: ebm 5s linear alternate infinite;
 }
 
 @keyframes ebm {
@@ -22,7 +22,7 @@
     }
 }
 
-@keyframes cloud {
+@keyframe s cloud {
     0% {
         background-position-x: 0px;
         background-color: white;
@@ -47,7 +47,7 @@
     }
 }
 
-body {
+bo dy {
     background-color: aliceblue;
     background-image: url(cloud.png);
     animation: cloud 10s linear alternate infinite;
