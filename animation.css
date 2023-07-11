@@ -1,16 +1,11 @@
-.bvr:hover{
-    animation: bobr 5s;
-}
-
-@keyframes bobr{
-    0%{
-        background-image: url(heart\ 1.png);
-    }
-    100%{
-        background-image: url(bober\ oret.jpg);
-    }
-}
-
-.bvr{
+.heart{
     background-image: url(heart\ 1.png);
+    background-repeat: no-repeat;
+    transition: all 5s;
+    filter: none;
+}
+
+.heart:hover{
+    filter: grayscale(100%);
+    transform: scale(1.5);
 }
