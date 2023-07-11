@@ -1,12 +1,14 @@
 .heart{
-    background-image: url(heart\ 1.png);
+    background-image: url(heart.png);
     background-repeat: no-repeat;
     transition: all 5s;
-    filter: none;
+    width: 300px;
+    height: 100%;
+    filter: grayscale(100%);
 }
 
 .heart:hover{
-    filter: grayscale(100%);
+    filter: grayscale(10%);
     transform: scale(1.5);
 }
 
