@@ -1,15 +1,16 @@
-img:hover{
+.bvr:hover{
     animation: bobr 5s;
 }
 
 @keyframes bobr{
     0%{
-        scale: 1;
+        background-image: url(heart\ 1.png);
     }
     100%{
-        scale: 2;
-        color: brown;
-        background-color: brown;
-        
+        background-image: url(bober\ oret.jpg);
     }
+}
+
+.bvr{
+    background-image: url(heart\ 1.png);
 }
