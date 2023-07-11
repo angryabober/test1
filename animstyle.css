@@ -4,29 +4,82 @@
     color: white;
     animation: ebm 5s linear 1s alternate infinite;
 }
-@keyframes ebm{
-    0%{
+
+@keyframes ebm {
+    0% {
         margin-left: 0px;
     }
-    50%{
+
+    50% {
         background-color: blue;
     }
-    100%{
+
+    100% {
         margin-left: 950px;
     }
 }
 
-@keyframes cloud{
-    from{
+@keyframes cloud {
+    0% {
         background-position-x: 0px;
+        background-color: white;
+
     }
-    to{
+
+    50% {
+        background-color: rgb(215, 216, 185);
+    }
+
+    70% {
+        background-color: rgb(206, 140, 17);
+    }
+
+    80% {
+        background-color: brown;
+    }
+
+    100% {
         background-position-x: 500px;
+        background-color: black;
     }
 }
 
-body{
+body {
     background-color: aliceblue;
     background-image: url(cloud.png);
-    animation: cloud 10s linear infinite;
+    animation: cloud 10s linear alternate infinite;
+}
+
+.loader-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.loader {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 50%;
+    margin: auto;
+    animation: loader 1s ease infinite;
+}
+
+@keyframes loader {
+
+    0%,
+    100% {
+        box-shadow: -10px 15px 0 #ffffff, 10px 15px 0 rgba(255, 255, 255, 0.2), 10px 36px 0 rgba(255, 255, 255, 0.2), -10px 36px 0 rgba(255, 255, 255, 0.2);
+    }
+
+    25% {
+        box-shadow: -10px 15px 0 rgba(255, 255, 255, 0.2), 10px 15px 0 #ffffff, 10px 36px 0 rgba(255, 255, 255, 0.2), -10px 36px 0 rgba(255, 255, 255, 0.2);
+    }
+
+    50% {
+        box-shadow: -10px 15px 0 rgba(255, 255, 255, 0.2), 10px 15px 0 rgba(255, 255, 255, 0.2), 10px 36px 0 #ffffff, -10px 36px 0 rgba(255, 255, 255, 0.2);
+    }
+
+    75% {
+        box-shadow: -10px 15px 0 rgba(255, 255, 255, 0.2), 10px 15px 0 rgba(255, 255, 255, 0.2), 10px 36px 0 rgba(255, 255, 255, 0.2), -10px 36px 0 #ffffff;
+    }
 }
