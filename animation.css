@@ -1,5 +1,13 @@
 img:hover{
-    scale: 2;
-    color: brown;
-    transition: all 5s;
+    animation: bobr 5s;
+}
+
+@keyframes bobr{
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 2;
+        color: brown;
+    }
 }
