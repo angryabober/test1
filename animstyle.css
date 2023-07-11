@@ -2,13 +2,16 @@
     background-color: aqua;
     width: 30vw;
     color: white;
-    animation: ebm 5s linear alternate infinite;
+    animation: ebm 5s linear 1s alternate infinite;
 }
 @keyframes ebm{
-    from{
+    0%{
         margin-left: 0px;
     }
-    to{
+    50%{
+        background-color: blue;
+    }
+    100%{
         margin-left: 950px;
     }
 }
