@@ -1,7 +1,6 @@
 .heart{
     background-image: url(heart.png);
     background-repeat: no-repeat;
-    transition: all 5s;
     width: 300px;
     height: 100%;
     filter: grayscale(100%);
@@ -10,6 +9,7 @@
 .heart:hover{
     filter: grayscale(10%);
     transform: scale(1.5);
+    transition: all 5s;
 }
 
 body{
