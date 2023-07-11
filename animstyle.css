@@ -15,3 +15,18 @@
         margin-left: 950px;
     }
 }
+
+@keyframes cloud{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 950px;
+    }
+}
+
+body{
+    background-color: aliceblue;
+    background-image: url(cloud.png);
+    animation: cloud 10s linear infinite;
+}
