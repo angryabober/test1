@@ -9,5 +9,7 @@ img:hover{
     100%{
         scale: 2;
         color: brown;
+        background-color: brown;
+        
     }
 }
