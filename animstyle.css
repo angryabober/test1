@@ -1,0 +1,14 @@
+#fbi {
+    background-color: aqua;
+    width: 30vw;
+    color: white;
+    animation: ebm 2s linear alternate infinite;
+}
+@keyframes ebm{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 500px;
+    }
+}
