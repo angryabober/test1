@@ -2,6 +2,9 @@
     background-color: aqua;
     width: 30vw;
     color: white;
+}
+
+#fbi:hover{
     animation: ebm 5s linear 1s alternate infinite;
 }
 
