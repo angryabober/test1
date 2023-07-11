@@ -9,3 +9,9 @@
     filter: grayscale(100%);
     transform: scale(1.5);
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
