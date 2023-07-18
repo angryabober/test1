@@ -9,4 +9,24 @@
     transition: all 1s ease-out;}.vidvig:hover{margin-top: -30px;}
 
 
-    
+@media screen and (max-width:550px){
+    .bsht{
+        display: none;
+    }
+    .bbr{
+        margin-top: 10px;
+        position: absolute;
+    }
+    .bbr2{
+        margin-top: 255px;
+        position: absolute;
+    }
+    .vidvig{
+        display: none;
+    }
+}
+
+td:hover{
+    background-color:rgb(214, 118, 118);
+    transition: all 0.5s;
+}
