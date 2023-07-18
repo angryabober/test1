@@ -36,6 +36,6 @@ td:hover{
 }
 
 td:active{
-    background-color:rgb(88, 55, 55);
+    background-color:rgb(42, 126, 165);
     transition: all 0.1s;
 }
