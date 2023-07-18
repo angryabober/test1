@@ -8,28 +8,27 @@
     width: 150px;
     height: 150px;
     background-color: rgb(214, 247, 205);
-    margin-left: 10px;
+    
 }
 
 .block3{
     width: 150px;
     height: 150px;
     background-color: rgb(175, 155, 201);
-    margin-left: 10px;
+    
 }
 
 .block4{
     width: 150px;
     height: 150px;
     background-color: rgb(235, 240, 189);
-    margin-left: 10px;
+    
 }
 
 
 .flextest{
     display: inline-flex;
     flex-direction: row;
-    align-content: flex-start;
     flex-wrap: wrap;
     background-color: rgb(123, 123, 187);
     padding-top: 10px;
@@ -39,5 +38,37 @@
 }
 .block1,.block2,.block3,.block4{
     border: 5px solid rgb(207, 188, 228);
-    border-radius: 15px
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.text{
+    background-color: rgb(214, 85, 85);
+    color: red;
+}
+
+.text2{
+    background-color: rgb(195, 214, 85);
+    color: yellowgreen;
+}
+
+.text3{
+    background-color: rgb(173, 85, 214);
+    color: violet;
+}
+
+.text4{
+    background-color: rgb(214, 212, 85);
+    color: yellow;
+}
+.text,.text2,.text3,.text4{
+    margin-left: 45px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-flex;
 }
