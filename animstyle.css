@@ -1,1 +1,43 @@
+.block1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(240, 166, 166);
+}
 
+.block2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(214, 247, 205);
+    margin-left: 10px;
+}
+
+.block3{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(175, 155, 201);
+    margin-left: 10px;
+}
+
+.block4{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(235, 240, 189);
+    margin-left: 10px;
+}
+
+
+.flextest{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: stretch;
+    
+    background-color: rgb(123, 123, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.block1,.block2,.block3,.block4{
+    border: 5px solid rgb(207, 188, 228);
+    border-radius: 15px
+}
