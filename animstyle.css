@@ -28,7 +28,7 @@
 
 .flextest{
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color: rgb(123, 123, 187);
     padding-top: 10px;
