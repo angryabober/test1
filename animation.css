@@ -36,6 +36,10 @@ td:hover{
 }
 
 td:active{
-    background-color:rgb(42, 126, 165);
+    background-color:rgb(219, 158, 158);
+    transition: all 0.1s;
+}
+td>img:active{
+    filter: hue-rotate(15090deg);
     transition: all 0.1s;
 }
