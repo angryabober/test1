@@ -29,7 +29,8 @@
 .flextest{
     display: inline-flex;
     flex-direction: row;
-    align-items: stretch;
+    align-content: flex-start;
+    flex-wrap: wrap;
     background-color: rgb(123, 123, 187);
     padding-top: 10px;
     padding-bottom: 10px;
