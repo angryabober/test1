@@ -172,3 +172,27 @@
     margin-left: 960px;
     margin-top: 75px;
 }
+
+.aftersh2>h3{
+    color: rgb(0, 136, 0);
+    position: absolute;
+    scale: 1.5;
+    margin-left: 50px;
+    margin-top: 1145px;
+}
+
+.aftersh3>h3{
+    color: rgb(0, 136, 0);
+    position: absolute;
+    scale: 1.5;
+    margin-left: 960px;
+    margin-top: 75px;
+}
+
+.aftersh2{
+    margin-top: -133px;
+}
+
+.aftersh3{
+    margin-top: -133px;
+}
