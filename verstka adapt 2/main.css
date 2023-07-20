@@ -66,11 +66,101 @@
     color: rgb(0, 136, 0)
 }
 
-.bt{
+.bt {
     width: 683px;
     height: 60px;
     background-color: rgba(225, 255, 50, 1);
     position: absolute;
     margin-top: -63px;
     margin-left: 10px;
+}
+
+.bt>h2 {
+    margin-left: 300px;
+    scale: 1.3;
+}
+
+.quickadd1>h1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -670px;
+    scale: 1.2;
+    margin-left: 180px;
+}
+
+.quickadd1>h2 {
+    position: absolute;
+    margin-top: -620px;
+    margin-left: 170px;
+    color: white;
+}
+
+
+.quickadd2>h1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -670px;
+    scale: 1.2;
+    margin-left: 180px;
+}
+
+.quickadd2>h2 {
+    position: absolute;
+    margin-top: -620px;
+    margin-left: 170px;
+    color: white;
+}
+
+.quickadd3>h1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -670px;
+    scale: 1.2;
+    margin-left: 180px;
+}
+
+.quickadd3>h2 {
+    position: absolute;
+    margin-top: -620px;
+    margin-left: 170px;
+    color: white;
+}
+
+.quickadd4>h1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -670px;
+    scale: 1.2;
+    margin-left: 180px;
+}
+
+.quickadd4>h2 {
+    position: absolute;
+    margin-top: -620px;
+    margin-left: 170px;
+    color: white;
+}
+
+.quickadd1{
+    margin-left: 240px;
+    scale: 1.3;
+    margin-top: 150px;
+}
+
+.quickadd2{
+    margin-left: 1040px;
+    scale: 1.3;
+    margin-top: -807px;
+}
+
+.quickadd3{
+    margin-left: 240px;
+    scale: 1.3;
+    margin-top: 115px;
+}
+
+.quickadd4{
+    margin-left: 1040px;
+    scale: 1.3;
+    margin-top: -807px;
 }
