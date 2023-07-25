@@ -109,9 +109,24 @@
                 <option>что-то ещё</option>
             </datalist>
         </label>
+
+        <label>
+            <span>Счётчик</span>
+            <input type="number" id="Inumber" name="number" min="1" max="12" step="1">
+             
+        </label>
         
         <label for="text">Текст</label>
         <textarea name="text" id="text" cols="30" rows="10"></textarea>
+
+        <label for="color"></label>
+        <input type="color" id="color" name="color">
+
+        <label for="file"></label>
+        <input type="file" id="file" name="file">
+
+        <label for="img"></label>
+        <input type="image" id="img">
 
         <input type="submit" value="отправить">
         <input type="reset" value="очистить">
