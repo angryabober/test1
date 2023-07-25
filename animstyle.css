@@ -10,3 +10,15 @@ form{
     flex-direction: column;
     gap: 10px;
 }
+
+.sexcheck{
+    display: flex;
+    gap: 10px;
+}
+
+ul{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+}

@@ -54,6 +54,53 @@
         <input type="radio" value="other" id="gender3" name="sex">
         </div>
 
+        <fieldset>
+            <legend>select size</legend>
+            <ul>
+                <li>
+                    <label>
+                        <span>Small</span>
+                        <input type="radio" id="small" name="size" value="small">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <span>Medium</span>
+                        <input type="radio" id="medium" name="size" value="medium">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <span>Large</span>
+                        <input type="radio" id="large" name="size" value="large">
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+
+        <label>
+            <span>Blog:</span>
+            <input type="url" id="url" name="Iurl">
+        </label>
+
+        <label>
+            <span>Date:</span>
+            <input type="date" id="date" name="Idate">
+        </label>
+
+        <label>
+            <span>жанр:</span>
+            <input type="text" id="userGenre" name="green" list="genreList">
+            <datalist id="genreList">
+                <option>Комедия</option>
+                <option>Ужасы</option>
+                <option>Научная фантастика</option>
+                <option>что-то ещё</option>
+                <option>что-то ещё</option>
+                <option>что-то ещё</option>
+            </datalist>
+        </label>
+        
         <label for="text">Текст</label>
         <textarea name="text" id="text" cols="30" rows="10"></textarea>
 
