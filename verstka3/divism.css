@@ -14,3 +14,18 @@
 .hedpos1>h1{
     margin-top: 35px;
 }
+
+.hedimg{
+    margin-top: -55px;
+}
+
+.hedimg>img{
+    scale: 1.2;
+}
+
+.undrline{
+    height: 2px;
+    width: 100%;
+    background-color: lightslategray;
+    margin-top: 55px;
+}
