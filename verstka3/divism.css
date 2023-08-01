@@ -47,3 +47,18 @@
     scale: 1.3;
     color: black;
 }
+
+.mnpos2>h3{
+    padding: 10px 10px 10px 10px;
+}
+
+.mnpos2{
+    display: inline-flex;
+    scale: 1.3;
+    margin-left: 240px;
+}
+
+.mnpos2>h1{
+    margin-left: 1000px;
+    scale: 0.5;
+}
