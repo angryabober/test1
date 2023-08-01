@@ -29,3 +29,8 @@
     background-color: lightslategray;
     margin-top: 55px;
 }
+
+.hedpos2{
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+}
