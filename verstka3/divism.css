@@ -121,5 +121,18 @@
     width: 230px;
     height: 25px;
     background-color: rgb(202, 202, 202);
-    border-bottom: 1px solid lightslategray;
+    border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+form>button{
+    position: absolute;
+    scale: 2;
+    margin-top: 119px;
+    margin-left: 764px;
+    border: 0px;
+    height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    background-color: black;
 }
