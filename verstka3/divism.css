@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hedpos1{
+    display: block;
+}
+
+@font-face {
+    font-family: jost1;
+    src: url(D:\bobrec\test1\verstka3\Jost-ExtraLight.ttf\);
+}
