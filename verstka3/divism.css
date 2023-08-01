@@ -4,10 +4,13 @@
 }
 
 .hedpos1{
-    display: block;
+    display: inline-flex;
 }
 
-@font-face {
-    font-family: "aaaaa";
-    src: url(D:\bobrec\test1\verstka3\fonts\Jost-ExtraLight) format("truetype");;
+.hedpos1>h2{
+    margin-top: 40px;
+}
+
+.hedpos1>h1{
+    margin-top: 35px;
 }
