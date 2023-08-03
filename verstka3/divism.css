@@ -145,14 +145,11 @@
 
 
 @media screen and (min-width:600px) {
-    .hdbg {
+    .hdbg2 {
         display: none;
     }
 
-    .mnpos1,.mnpos2,.mnpos3 {
-        display: none;
-    }
-
+    
     .bgposmain {
         scale: 1.25;
         margin-left: 230px;
@@ -162,13 +159,9 @@
     .bgpossm{
         display: none;
     }
-
-    .bgposbtm {
-        display: none;
-    }
 }
 
-@media screen and (max-width:600px) and (min-width:25px) {
+@media screen and (max-width:600px) and (min-width:250px) {
     .hdbg {
         display: none;
     }
@@ -180,7 +173,7 @@
     .bgpossm{
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: -130px;
         scale: 1;
     }
 
