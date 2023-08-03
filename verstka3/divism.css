@@ -106,6 +106,12 @@
     margin-left: 170px;
 }
 
-@media screen and (max-width:375px){
-    
+@media screen and (max-width:600px) and (min-width:250px){
+    .hedpos1{
+        display: none;
+    }
+    .hedpos2{
+        display: none;
+    }
+
 }
