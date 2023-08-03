@@ -173,10 +173,8 @@
         display: none;
     }
 
-    .bgposmain {
-        display: flex;
-        justify-content: center;
-        scale: 0.5;
+    .bgposmain{
+        display: none;
     }
     
     .bgposbtm {
