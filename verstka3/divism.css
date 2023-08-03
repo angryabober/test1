@@ -127,6 +127,10 @@
     padding-right: 20px;
 }
 
+.viborsm{
+    
+}
+
 @media screen and (max-width:600px) and (min-width:25px) {
     .hdbg {
         display: none;
