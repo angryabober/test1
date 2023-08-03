@@ -153,7 +153,11 @@
         display: none;
     }
 
-    .mnpos1,.mnpos2,.mnpos3 {
+    .mnpos1,.mnpos2 {
+        display: none;
+    }
+
+    .bgposmain{
         display: none;
     }
 
@@ -168,6 +172,10 @@
     }
 
     .mnpos1,.mnpos2 {
+        display: none;
+    }
+
+    .bgposmain{
         display: none;
     }
 
