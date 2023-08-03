@@ -127,6 +127,13 @@
     padding-right: 20px;
 }
 
+.viborsm{
+    display: flex;
+    justify-content: center;
+    scale: 1.1;
+    margin-top: 40px;
+}
+
 .pdvibor{
     display: inline-flex;
 }
@@ -134,12 +141,14 @@
 .pdvibor>h3{
     padding-right: 10px;
     padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 1px solid rgb(200, 200, 200);
 }
 
-@media screen and (max-width:600px) and (min-width:25px) {
+
+
+@media screen and (max-width:600px) and (min-width:250px) {
     .hdbg {
         display: none;
     }
@@ -159,20 +168,7 @@
 }
 
 @media screen and (min-width:600px) {
-    .hdbg {
-        display: none;
-    }
-
-    .mnpos1,
-    .mnpos2 {
-        display: none;
-    }
-
-    .bgposmain {
-        display: none;
-    }
-
-    .bgposbtm {
+    .hdbg2 {
         display: none;
     }
 }
