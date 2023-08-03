@@ -107,11 +107,31 @@
 }
 
 @media screen and (max-width:600px) and (min-width:250px){
-    .hedpos1{
+    .hdbg{
         display: none;
     }
-    .hedpos2{
+    .mnpos1,.mnpos2{
         display: none;
     }
+    .bgposmain{
+        display: none;
+    }
+    .bgposbtm{
+        display: none;
+    }
+}
 
+@media screen and (min-width:600px){
+    .hdbg{
+        display: none;
+    }
+    .mnpos1,.mnpos2{
+        display: none;
+    }
+    .bgposmain{
+        display: none;
+    }
+    .bgposbtm{
+        display: none;
+    }
 }
