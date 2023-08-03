@@ -82,6 +82,8 @@
     width: 1405px;
     padding-top: 25px;
     padding-bottom: 25px;
+    position: absolute;
+    margin-top: 1590px;
 }
 
 .mnpos3>h2 {
@@ -153,12 +155,15 @@
         display: none;
     }
 
-    .mnpos1,.mnpos2 {
+    .mnpos1,.mnpos2,.mnpos3 {
         display: none;
     }
 
-    .bgposmain{
-        display: none;
+    .bgposmain {
+        display: flex;
+        justify-content: center;
+        scale: 0.5;
+        
     }
 
     .bgposbtm {
@@ -171,13 +176,11 @@
         display: none;
     }
 
-    .mnpos1,.mnpos2 {
+    .mnpos1,.mnpos2,.mnpos3 {
         display: none;
     }
 
-    .bgposmain{
-        display: none;
-    }
+    
 
     .bgposbtm {
         display: none;
