@@ -48,4 +48,8 @@ main{
     main{
         padding: 5px;
     }
+
+    .box{
+        width: 300px;
+    }
 }
