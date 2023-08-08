@@ -22,25 +22,3 @@ details[open]>summary{
 details:nth-child(odd){
     filter: grayscale(30%);
 }
-
-
-
-.card{
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
-    border-radius: 5px;
-    display: flex;
-    
-}
-
-.scroll{
-    display: flex;
-    flex-direction: row;
-    gap: var(--gap-scroll--);
-    scroll-snap-align: center;
-    padding: 20px;
-    gap: 10px;
-    overflow-x: scroll;
-    scroll-snap-type: mandatory;
-}
