@@ -1,64 +1,20 @@
-#bvr{
-    justify-content: flex-end;
-    padding: 9px 15px 9px 15px;
-    color: blueviolet;
-    background-color: rgb(75, 17, 129);
-    border-radius: 10px;
-    
+details>summary{
+    display: block;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-#bcr{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 9px;
-    padding-right: 9px;
-    background-color: #10847a;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    transition: all 1s ease-in;
+details>div{
+    border: 1px solid #ccc;
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-#bcr:hover{
-    background-color: #1d948a;
-}
-
-#bcr:active{
-    background-color: #0b302d;
-    color: white;
-    width: 200px;
-    height: 200px;
-}
-
-#mcr{
-    background-color: rgb(107, 4, 155);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 9px;
-    padding-right: 9px;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    transition: all 1s ease-in;
-}
-
-#mcr:hover{
-    background-color: rgb(80, 0, 117);
-    color: rgb(155, 0, 226);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 9px;
-    padding-right: 9px;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
+details[open]>summary{
+    background-color: rgb(37, 13, 82);
+    color: #fff;
 }
