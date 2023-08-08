@@ -36,3 +36,13 @@ main{
     height: 400px;
     border: solid 1px black;
 }
+
+@media screen and (max-width:400px){
+    .first_cont{
+        display: none;
+    }
+
+    main{
+        padding: 5px;
+    }
+}
