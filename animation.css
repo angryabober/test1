@@ -1,14 +1,8 @@
-.vidvig {
+.bvr1{
     width: 200px;
-    height: 250px;
+    height: 70px;
     background-color: brown;
-    margin-left: 250px;
-    margin-top: -240px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    transition: all 1s ease-out;
-}
-
-.vidvig:hover {
-    margin-top: -30px;
+    border-radius: 5px;
+    border: 1px solid rgb(221, 59, 59);
+    box-shadow: rgb(0, 0, 0) 5px 5px 10px 3px;
 }
