@@ -1,3 +1,4 @@
-const name = prompt('введите год вашего рождения');
-let bbr3 = 2023 - name
-alert(bbr3)
+const abbr = prompt('введите год вашего рождения');
+let bbr3 = 2023 - abbr
+let name = "ваш возраст:"
+alert(`${name}`+bbr3)
