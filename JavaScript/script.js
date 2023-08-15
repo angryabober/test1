@@ -1,3 +1,3 @@
-let num1 = '7'
-let num2 = '9'
-alert(`результат: ${num1 + num2}`)
+let num1 = prompt('число1');
+let num2 = prompt('число2');
+alert(num1 * num2);
