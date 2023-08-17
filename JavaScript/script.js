@@ -1,9 +1,10 @@
 let isStudent = prompt('вы студент?')
 let hasJob= prompt('у вас есть работа?')
 
-if (isStudent == yes);
+if (hasJob == 1){
     alert('у студента есть работа');
+}
 
-
-if (hasJob == no);
+else {
     alert('у студента нет работы');
+}
