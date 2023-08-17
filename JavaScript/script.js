@@ -1,4 +1,3 @@
-let num1 = prompt('число 1');
-let symb = prompt('введите символ')
-let num2 = prompt('число 2');
-alert(eval(`${num1}${symb}${num2}`))
+let cels = prompt('градусы цельсия')
+let answ = (Number(cels) * 9 / 5 + 32)
+alert(`градусы фаренгейта:${answ}`)
