@@ -1,6 +1,14 @@
-let a = 12, b=5;
+let a = prompt('число 1')
+let b = prompt('число 2')
 
-let c = ++a;
-let d = b++;
-alert(c)
-alert(d)
+if (a > b)
+
+alert(`${a} больше, чем ${b}`)
+
+if (a < b)
+
+alert(`${b} больше, чем ${a}`)
+
+if (a = b)
+
+alert(`${b} = ${a}`)
