@@ -1,3 +1,6 @@
-let cels = prompt('градусы цельсия')
-let answ = (Number(cels) * 9 / 5 + 32)
-alert(`градусы фаренгейта:${answ}`)
+let a = 12, b=5;
+
+let c = ++a;
+let d = b++;
+alert(c)
+alert(d)
