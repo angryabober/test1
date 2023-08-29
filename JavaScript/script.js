@@ -41,4 +41,7 @@ switch (znak) {
     case '/':
         alert (num1 / num2);
         break;
+    case '%':
+        alert (num1 % num2);
+        break;
 }
