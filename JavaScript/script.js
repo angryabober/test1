@@ -39,6 +39,6 @@ switch (znak) {
         alert(num1 * num2);
         break;
     case '/':
-        alert(num1 / num2);
+        alert (num1 / num2);
         break;
 }
