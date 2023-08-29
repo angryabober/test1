@@ -67,8 +67,7 @@ function undef(){
 }
 
 function sumr(x){
-    let resault = x*2
-    return resault
+    return x*2
 }
 
 let num = sumr(4)
