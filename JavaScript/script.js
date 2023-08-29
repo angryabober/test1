@@ -30,8 +30,8 @@ let num2 = Number(prompt('2'));
 let znak = prompt('знак числа')
 switch (znak) {
     case '+':
-    alert(num1 + num2);
-    break;
+        alert(num1 + num2);
+        break;
     case '-':
         alert(num1 - num2);
         break;
