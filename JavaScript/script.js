@@ -1,10 +1,5 @@
-let isStudent = prompt('вы студент?')
-let hasJob= prompt('у вас есть работа?')
-
-if (hasJob == 1){
-    alert('у студента есть работа');
+let num
+while (num !== '0'){
+    num = prompt('введите какое-нибудь число')
 }
-
-else {
-    alert('у студента нет работы');
-}
+alert('вы ввели верное число')
