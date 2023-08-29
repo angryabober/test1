@@ -56,7 +56,20 @@
 let name = 'bobr'
 let age = 23
 
-function show(name,age){
-    console.log(name,age)
+function show(nameshow,ageshow = undef()){
+    console.log(nameshow,ageshow)
 }
-show(name,age)
+
+show(name)
+
+function undef(){
+    return 32
+}
+
+function sumr(x){
+    let resault = x*2
+    return resault
+}
+
+let num = sumr(4)
+console.log(num)
