@@ -16,11 +16,29 @@
 // }
 // console.log('всё')
 
-let min = 0;
-let max = 100;
-for (let count = 10; count;){
-    let num = Math.floor(Math.random() * (max - min + 1)) + min;
-    console.log(num);
-    count = count - 1;
+// let min = 0;
+// let max = 100;
+// for (let count = 10; count;){
+//     let num = Math.floor(Math.random() * (max - min + 1)) + min;
+//     console.log(num);
+//     count = count - 1;
+// }
+// console.log('всё')
+
+let num1 = Number(prompt('1'));
+let num2 = Number(prompt('2'));
+let znak = prompt('знак числа')
+switch (znak) {
+    case '+':
+    alert(num1 + num2);
+    break;
+    case '-':
+        alert(num1 - num2);
+        break;
+    case '*':
+        alert(num1 * num2);
+        break;
+    case '/':
+        alert(num1 / num2);
+        break;
 }
-console.log('всё')
