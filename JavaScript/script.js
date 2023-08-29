@@ -1,8 +1,7 @@
-let num;
-let all;
-while (num !== '0'){
-    num = prompt('введите какое-нибудь число');
-    all = all + num
+let age = prompt('введите ваш возраст')
+if (age <= 18) {
+    alert(' школьник')
 }
-alert('вы ввели верное число');
-alert(Number(num));
+else {
+    alert('студент')
+}
