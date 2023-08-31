@@ -25,9 +25,7 @@
 let a = prompt('1');
 let b = prompt('2');
 function bobr(x,y){
-    if (x > y)return 'x > y'
-    if (x < y)return 'x < y'
-    else return 'x = y'
+    
 }
 
 bobr(a,b);
