@@ -11,13 +11,17 @@
 
 // agecalc(age)
 
-let age = +prompt('age?')
+// let age = +prompt('age?')
 
-function myFunc(x){
-    if (x < 18)return 'школьник'
-    else return 'студент'
-}
+// function myFunc(x){
+//     if (x < 18)return 'школьник'
+//     else return 'студент'
+// }
 
-let ageX = myFunc(age)
+// let ageX = myFunc(age)
 
-alert(ageX)
+// alert(ageX)
+
+let a = prompt('1')
+let b = prompt('2')
+alert(Math.min(a,b))
