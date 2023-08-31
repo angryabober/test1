@@ -22,10 +22,18 @@
 
 // alert(ageX)
 
-let a = prompt('1')
-let b = prompt('2')
+let a = prompt('1');
+let b = prompt('2');
 function bobr(x,y){
-    alert(Math.min(x,y))
+    if (x > y) {
+        return 'x > y'
+    }
+    if (x < y) {
+        return 'x < y'
+    }
+    else {
+        return 'x = y'
+    }
 }
 
-bobr(a,b)
+bobr(a,b);
