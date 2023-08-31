@@ -46,13 +46,6 @@
 //         break;
 // }
 
-// for(var i =0;i<6;i++){
-//     for(var j=0;j<i;j++){
-//         document.write('*');
-//     }
-//     document.write('<br/>');
-// }
-
 let name = 'bobr'
 let age = 23
 
