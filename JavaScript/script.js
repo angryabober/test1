@@ -2,10 +2,10 @@ let age = prompt('введите ваш возраст');
 
 function agecalc(agex) {
     if (agex < 18) {
-        alert('bobr')
+        alert('школьник')
     }
     else {
-        alert('someone else')
+        alert('студент')
     }
 }
 
