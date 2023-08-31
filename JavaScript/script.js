@@ -25,7 +25,12 @@
 let a = prompt('1');
 let b = prompt('2');
 function bobr(x,y){
-    
+    if (x > y) {
+        return y;
+    }
+    if (x < y) {
+        return x;
+    }
 }
 
 bobr(a,b);
