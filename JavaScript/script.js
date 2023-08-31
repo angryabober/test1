@@ -24,4 +24,8 @@
 
 let a = prompt('1')
 let b = prompt('2')
-alert(Math.min(a,b))
+function bobr(x,y){
+    alert(Math.min(x,y))
+}
+
+bobr(a,b)
