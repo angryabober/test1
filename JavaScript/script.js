@@ -79,5 +79,7 @@ console.log(ar2)
 //     },
 // }
 person.adress = { street: 'moskovskaya' };
-let ar1 = Object.values(person)
-alert(ar1)
+let ar1 = Object.values(person);
+alert(ar1);
+
+delete person.adress;
