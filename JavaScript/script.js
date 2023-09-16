@@ -49,7 +49,7 @@
 let user = {
     name: "john",
     age: "37",
-};
+}; 
 alert(user.name);
 user.name = "Alice";
 alert(user.name);
