@@ -35,23 +35,37 @@
 
 // bobr(a,b);
 
-// let user = {
-//     name: "John",
-//     age: 30,
+// let sruser = {
+//     name: "bober",
+//     status: "beaver",
 // };
-// alert( user.name );
-// user.name = "Alice";
-// alert( user.name )
-// let key = prompt('что вы хотите узнать');
-// alert( user[key] );
+// const obj2 = sruser;
+// alert( obj2.status );
 
-let sruser = {
-    name: "bober",
-    status: "beaver",
+// let arr = Object.values(sruser)
+// console.log(arr.length)
+// alert(arr)
+
+let user = {
+    name: "john",
+    age: "37",
 };
-const obj2 = sruser;
-alert( obj2.status );
+alert(user.name);
+user.name = "Alice";
+alert(user.name);
+delete user.name;
+alert('age' in user);
 
-let arr = Object.values(sruser)
-console.log(arr.length)
-alert(arr)
+let person = {
+    name: "bober",
+    age: "1289",
+    city: "muhosransk",
+};
+let ar2 = Object.values(person)
+alert(ar2)
+alert(Object.keys(person).length);
+
+let personCopy = person;
+let percon = {person, personCopy};
+
+alert(percon.age)
