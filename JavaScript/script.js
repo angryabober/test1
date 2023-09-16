@@ -68,3 +68,16 @@ alert(Object.keys(person).length);
 let personCopy = person;
 let percon = Object.assign({}, person, personCopy);
 console.log(percon.age)
+console.log(ar2)
+
+// const person2 = {
+//     name: "bober",
+//     age: 1289,
+//     city: "muhosransk",
+//     address: {
+//         street: "Moscovskaja",
+//     },
+// }
+person.adress = { street: 'moskovskaya' };
+let ar1 = Object.values(person)
+alert(ar1)
