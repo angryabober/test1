@@ -22,15 +22,36 @@
 
 // alert(ageX)
 
-let a = prompt('1');
-let b = prompt('2');
-function bobr(x,y){
-    if (x > y) {
-        return y;
-    }
-    if (x < y) {
-        return x;
-    }
-}
+// let a = prompt('1');
+// let b = prompt('2');
+// function bobr(x,y){
+//     if (x > y) {
+//         return y;
+//     }
+//     if (x < y) {
+//         return x;
+//     }
+// }
 
-bobr(a,b);
+// bobr(a,b);
+
+// let user = {
+//     name: "John",
+//     age: 30,
+// };
+// alert( user.name );
+// user.name = "Alice";
+// alert( user.name )
+// let key = prompt('что вы хотите узнать');
+// alert( user[key] );
+
+let sruser = {
+    name: "bober",
+    status: "beaver",
+};
+const obj2 = sruser;
+alert( obj2.status );
+
+let arr = Object.values(sruser)
+console.log(arr.length)
+alert(arr)
