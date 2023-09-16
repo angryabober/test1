@@ -66,6 +66,5 @@ alert(ar2)
 alert(Object.keys(person).length);
 
 let personCopy = person;
-let percon = {person, personCopy};
-
-alert(percon.age)
+let percon = Object.assign({}, person, personCopy);
+console.log(percon.age)
